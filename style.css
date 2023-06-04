@@ -1,0 +1,37 @@
+img{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+
+/* import React, { useState, useEffect } from "react";
+
+function MovieList() {
+  const [movies, setMovies] = useState([]);
+
+  useEffect(() => {
+    fetch("https://api.themoviedb.org/3/movie/popular?api_key=YOUR_API_KEY")
+      .then((response) => response.json())
+      .then((data) => setMovies(data.results));
+  }, []);
+
+  return (
+    <div>
+      <h1>Popular Movies</h1>
+      <ul>
+        {movies.map((movie) => (
+          <li key={movie.id}>
+            <img src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} alt={movie.title} />
+            <h2>{movie.title}</h2>
+            <p>{movie.overview}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export default MovieList; */
